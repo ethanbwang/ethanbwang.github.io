@@ -10,16 +10,16 @@ init-properties:
 [init-project] Initializing project
 
 check-arg:
-   [delete] Deleting directory /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359
-    [mkdir] Created dir: /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359
+   [delete] Deleting directory /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625
+    [mkdir] Created dir: /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625
 
 log-arg:
      [echo] *****************************************************************
-     [echo] * basedir = /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1
-     [echo] * dita.dir = /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1
+     [echo] * basedir = /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1
+     [echo] * dita.dir = /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1
      [echo] * transtype = html5-bootstrap
-     [echo] * tempdir = /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359
-     [echo] * outputdir = /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap
+     [echo] * tempdir = /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625
+     [echo] * outputdir = /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap
      [echo] * clean.temp = true
      [echo] * DITA-OT version = 3.6.1
      [echo] * XML parser = Xerces
@@ -27,40 +27,40 @@ log-arg:
      [echo] * collator = ICU
      [echo] *****************************************************************
      [echo] #Ant properties
-     [echo] #Tue Jun 04 18:23:30 GMT 2024
-     [echo] dita.plugin.org.dita.base.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.base
-     [echo] dita.temp.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359
-     [echo] args.xsl=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/xsl/html5-bootstrap.xsl
+     [echo] #Mon Jun 10 07:39:27 GMT 2024
+     [echo] dita.plugin.org.dita.base.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.base
+     [echo] dita.temp.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625
+     [echo] args.xsl=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/xsl/html5-bootstrap.xsl
      [echo] args.html5.toc=toc
      [echo] args.grammar.cache=yes
-     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.xdita.v0_2_2
-     [echo] dita.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1
-     [echo] dita.plugin.org.dita.pdf2.axf.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.axf
-     [echo] args.hdf=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/includes/bootstrap.hdf.xml
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.xdita.v0_2_2
+     [echo] dita.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.axf
+     [echo] args.hdf=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/includes/bootstrap.hdf.xml
      [echo] args.copycss=yes
      [echo] args.csspath=css
-     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v1_3
-     [echo] dita.plugin.org.lwdita.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.lwdita
-     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v2_0
-     [echo] args.hdr=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/includes/bs-navbar-default.hdr.xml
-     [echo] dita.plugin.org.dita.htmlhelp.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.htmlhelp
-     [echo] dita.output.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap
-     [echo] dita.plugin.org.dita.eclipsehelp.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.eclipsehelp
-     [echo] dita.plugin.org.dita.normalize.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.normalize
-     [echo] dita.plugin.org.dita.xhtml.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.xhtml
-     [echo] dita.plugin.org.dita.pdf2.xep.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.xep
-     [echo] dita.plugin.org.dita.specialization.dita11.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.specialization.dita11
-     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v1_2
-     [echo] dita.plugin.org.dita.pdf2.fop.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.fop
-     [echo] args.input=/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/Logisim_3.8.0_Documentation.ditamap
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.lwdita.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.lwdita
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v2_0
+     [echo] args.hdr=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/includes/bs-navbar-default.hdr.xml
+     [echo] dita.plugin.org.dita.htmlhelp.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.htmlhelp
+     [echo] dita.output.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.normalize.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.normalize
+     [echo] dita.plugin.org.dita.xhtml.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.xhtml
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.specialization.dita11
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2.fop
+     [echo] args.input=/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/Logisim_3.8.0_Documentation.ditamap
      [echo] args.xml.systemid.set=yes
-     [echo] dita.plugin.org.dita.pdf2.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2
-     [echo] dita.plugin.org.dita.html5.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.html5
+     [echo] dita.plugin.org.dita.pdf2.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.pdf2
+     [echo] dita.plugin.org.dita.html5.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.html5
      [echo] dita.html5.reloadstylesheet=false
-     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.techcomm.v2_0
-     [echo] dita.plugin.org.dita.index.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.index
-     [echo] dita.plugin.net.infotexture.dita-bootstrap.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap
-     [echo] dita.plugin.fox.jason.extend.css.dir=/home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/fox.jason.extend.css
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.oasis-open.dita.techcomm.v2_0
+     [echo] dita.plugin.org.dita.index.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.index
+     [echo] dita.plugin.net.infotexture.dita-bootstrap.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap
+     [echo] dita.plugin.fox.jason.extend.css.dir=/home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/fox.jason.extend.css
      [echo] dita.extname=dita
      [echo] *****************************************************************
 
@@ -68,7 +68,7 @@ build-init:
 
 preprocess.init:
      [echo] *****************************************************************
-     [echo] * input = /home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/Logisim_3.8.0_Documentation.ditamap
+     [echo] * input = /home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/Logisim_3.8.0_Documentation.ditamap
      [echo] * resources = ${args.resources}
      [echo] *****************************************************************
 
@@ -76,69 +76,69 @@ ditaval-merge:
 
 gen-list:
  [gen-list] Using Xerces grammar pool for DTD and schema caching.
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/Logisim_3.8.0_Documentation.ditamap
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Add_an_LED.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/download_logisim/download_link.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/download_logisim/downloading_logisim.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/misc/What_is_Logisim.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/design_simulate_menu/Design_Menu.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/design_simulate_menu/Simulate_Menu.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/navigating_the_user_interface.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/properties_state_menu/Properties_Menu.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/properties_state_menu/State_Menu.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Poke_Mode.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Select_Mode.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Text_Mode.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Top_Bar.dita
- [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Wiring_Mode.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/Logisim_3.8.0_Documentation.ditamap
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Add_an_LED.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/download_logisim/download_link.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/download_logisim/downloading_logisim.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/misc/What_is_Logisim.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/design_simulate_menu/Design_Menu.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/design_simulate_menu/Simulate_Menu.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/navigating_the_user_interface.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/properties_state_menu/Properties_Menu.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/properties_state_menu/State_Menu.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Poke_Mode.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Select_Mode.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Text_Mode.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Top_Bar.dita
+ [gen-list] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Wiring_Mode.dita
  [gen-list] Serializing job specification
 
 debug-filter:
    [filter] Using Xerces grammar pool for DTD and schema caching.
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/design_simulate_menu/Design_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Design_Menu.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/design_simulate_menu/Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Simulate_Menu.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/properties_state_menu/The_PropertiesState_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/properties_state_menu/State_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/State_Menu.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Add_the_Logic_Unit.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/download_logisim/downloading_logisim.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/downloading_logisim.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/properties_state_menu/Properties_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/Properties_Menu.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/navigating_the_user_interface.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/navigating_the_user_interface.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/Logisim_3.8.0_Documentation.ditamap to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Add_an_LED.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_an_LED.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Poke_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Poke_Mode.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Wiring_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Wiring_Mode.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Top_Bar.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Top_Bar.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Select_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Select_Mode.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/build_and_test_simple_circuit/Add_a_Dip_Switch.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/user_interface/top_bar/Text_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Text_Mode.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/misc/What_is_Logisim.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/misc/What_is_Logisim.dita
-   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/source/0/download_logisim/download_link.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/download_link.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/design_simulate_menu/Design_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Design_Menu.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/design_simulate_menu/Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Simulate_Menu.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/properties_state_menu/The_PropertiesState_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/properties_state_menu/State_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/State_Menu.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Add_the_Logic_Unit.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/download_logisim/downloading_logisim.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/downloading_logisim.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/properties_state_menu/Properties_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/Properties_Menu.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/navigating_the_user_interface.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/navigating_the_user_interface.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/Logisim_3.8.0_Documentation.ditamap to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Add_an_LED.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_an_LED.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Poke_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Poke_Mode.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Wiring_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Wiring_Mode.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Top_Bar.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Top_Bar.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Select_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Select_Mode.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/build_and_test_simple_circuit/Add_a_Dip_Switch.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/user_interface/top_bar/Text_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Text_Mode.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/misc/What_is_Logisim.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/misc/What_is_Logisim.dita
+   [filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/source/0/download_logisim/download_link.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/download_link.dita
 
 mapref-check:
 
 mapref:
-   [mapref] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
+   [mapref] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
 
 branch-filter:
-[branch-filter] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
+[branch-filter] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
 
 keyref:
-   [mapref] Transforming into /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359
-   [mapref] Loading stylesheet /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/mapref.xsl
-   [mapref] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
+   [mapref] Transforming into /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625
+   [mapref] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/mapref.xsl
+   [mapref] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
 
 copy-to:
 
@@ -151,101 +151,101 @@ profile-check:
 profile:
 
 topic-fragment:
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Design_Menu.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Simulate_Menu.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/State_Menu.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/downloading_logisim.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/Properties_Menu.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/navigating_the_user_interface.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_an_LED.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Poke_Mode.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Wiring_Mode.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Top_Bar.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Select_Mode.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Text_Mode.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/misc/What_is_Logisim.dita
-[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/download_link.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Design_Menu.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Simulate_Menu.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/State_Menu.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/downloading_logisim.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/Properties_Menu.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/navigating_the_user_interface.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_an_LED.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Poke_Mode.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Wiring_Mode.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Top_Bar.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Select_Mode.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Text_Mode.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/misc/What_is_Logisim.dita
+[topic-fragment] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/download_link.dita
 
 chunk-check:
 
 chunk:
-    [chunk] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
+    [chunk] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
 
 move-meta-entries:
-[move-meta] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
-[move-meta] Loading stylesheet /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/mappull.xsl
-[move-meta] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
+[move-meta] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
+[move-meta] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/mappull.xsl
+[move-meta] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
 
 maplink-check:
 
 maplink:
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Wiring_Mode.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/navigating_the_user_interface.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/Properties_Menu.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/downloading_logisim.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Design_Menu.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Top_Bar.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Simulate_Menu.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_an_LED.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Select_Mode.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/download_link.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Poke_Mode.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Text_Mode.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/State_Menu.dita
-  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Wiring_Mode.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/navigating_the_user_interface.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/Properties_Menu.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/downloading_logisim.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Design_Menu.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Top_Bar.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Simulate_Menu.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_an_LED.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Select_Mode.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/download_link.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Poke_Mode.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Text_Mode.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/State_Menu.dita
+  [maplink] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
 
 topicpull-check:
 
 topicpull:
-[topicpull] Transforming into /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359
-[topicpull] Loading stylesheet /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Design_Menu.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Simulate_Menu.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/State_Menu.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/downloading_logisim.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/Properties_Menu.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/navigating_the_user_interface.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_an_LED.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Poke_Mode.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Wiring_Mode.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Top_Bar.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Select_Mode.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Text_Mode.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/misc/What_is_Logisim.dita
-[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/download_link.dita
+[topicpull] Transforming into /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625
+[topicpull] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Design_Menu.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Simulate_Menu.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/State_Menu.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/downloading_logisim.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/Properties_Menu.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/navigating_the_user_interface.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_an_LED.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Poke_Mode.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Wiring_Mode.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Top_Bar.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Select_Mode.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Text_Mode.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/misc/What_is_Logisim.dita
+[topicpull] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/download_link.dita
 
 clean-map-check:
 
 clean-map:
-[clean-map] Transforming into /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359
-[clean-map] Loading stylesheet /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
-[clean-map] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap
+[clean-map] Transforming into /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625
+[clean-map] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap
 
 clean-preprocess:
 
 copy-image:
-     [copy] Copying 30 files to /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap
+     [copy] Copying 30 files to /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap
 
 copy-html:
 
@@ -260,7 +260,7 @@ extend.css.init:
 dita-bootstrap.css.copy:
 
 extend.css.copy:
-     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/css
+     [copy] Copying 1 file to /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/css
 
 extend.css:
 
@@ -269,100 +269,100 @@ preprocess:
 html5.topic.init:
 
 html5.image-metadata:
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Design_Menu.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/design_menu.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Simulate_Menu.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/simulate_menu_annotated.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/poke_mode.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/State_Menu.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/state_menu.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/AND_gate.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/step_7_result.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/OR_gate.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/step_10_result.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/downloading_logisim.dita
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/Properties_Menu.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/properties_menu.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/full_tick.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/auto_tick_frequency.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/auto_tick.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/pause.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/paused_full_tick.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/step.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/sequential_stepping_result.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/play.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/select_mode.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/majority_voter_circuit.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/navigating_the_user_interface.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/user_interface.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_an_LED.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/step_13_result.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Poke_Mode.dita
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Wiring_Mode.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/wiring_mode.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Top_Bar.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/top_bar.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Select_Mode.dita
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/register.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/sequential_step_7_result.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/sequential_step_12_result.png
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/basic_synchronous_counter.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/dip_switch.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Text_Mode.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/text_mode.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/misc/What_is_Logisim.dita
-[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/images/logisim_home.png
-[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/download_link.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Design_Menu.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/design_menu.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Simulate_Menu.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/simulate_menu_annotated.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/The_PropertiesState_Menu.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/poke_mode.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/State_Menu.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/state_menu.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_the_Logic_Unit.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/AND_gate.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/step_7_result.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/OR_gate.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/step_10_result.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/downloading_logisim.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/Properties_Menu.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/properties_menu.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/full_tick.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/auto_tick_frequency.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/auto_tick.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/pause.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/paused_full_tick.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/step.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/sequential_stepping_result.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/play.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/select_mode.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/majority_voter_circuit.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/navigating_the_user_interface.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/user_interface.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_an_LED.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/step_13_result.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Poke_Mode.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Wiring_Mode.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/wiring_mode.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Top_Bar.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/top_bar.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Select_Mode.dita
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_a_Dip_Switch.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/dip_switch.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/register.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/sequential_step_7_result.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/sequential_step_12_result.png
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/basic_synchronous_counter.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Text_Mode.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/text_mode.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/misc/What_is_Logisim.dita
+[image-metadata] Reading file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/images/logisim_home.png
+[image-metadata] Processing /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/download_link.dita
 
 html5.topics.common:
 
 html5.topics.common.inner:
-     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap
-     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/xsl/html5-bootstrap.xsl
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Design_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/design_simulate_menu/Design_Menu.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/design_simulate_menu/Simulate_Menu.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/design_simulate_menu/The_DesignSimulate_Menu.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/The_PropertiesState_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/properties_state_menu/The_PropertiesState_Menu.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/State_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/properties_state_menu/State_Menu.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_the_Logic_Unit.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/build_and_test_simple_circuit/Add_the_Logic_Unit.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/downloading_logisim.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/download_logisim/downloading_logisim.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/properties_state_menu/Properties_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/properties_state_menu/Properties_Menu.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/navigating_the_user_interface.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/navigating_the_user_interface.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_an_LED.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/build_and_test_simple_circuit/Add_an_LED.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Poke_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/top_bar/Poke_Mode.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Wiring_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/top_bar/Wiring_Mode.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Top_Bar.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/top_bar/Top_Bar.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Select_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/top_bar/Select_Mode.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/simulate_sequential_circuit/Building_a_Synchronous_Counter.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/build_and_test_simple_circuit/Add_a_Dip_Switch.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/build_and_test_simple_circuit/Add_a_Dip_Switch.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/user_interface/top_bar/Text_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/user_interface/top_bar/Text_Mode.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/misc/What_is_Logisim.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/misc/What_is_Logisim.html
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/download_logisim/download_link.dita to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/download_logisim/download_link.html
+     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/net.infotexture.dita-bootstrap/xsl/html5-bootstrap.xsl
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Design_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/design_simulate_menu/Design_Menu.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/design_simulate_menu/Simulate_Menu.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/design_simulate_menu/The_DesignSimulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/design_simulate_menu/The_DesignSimulate_Menu.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/The_PropertiesState_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/properties_state_menu/The_PropertiesState_Menu.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/build_and_test_simple_circuit/Building_and_Verifying_a_Simple_Circuit.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/State_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/properties_state_menu/State_Menu.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_the_Logic_Unit.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/build_and_test_simple_circuit/Add_the_Logic_Unit.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/downloading_logisim.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/download_logisim/downloading_logisim.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/properties_state_menu/Properties_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/properties_state_menu/Properties_Menu.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/simulate_sequential_circuit/Simulating_a_Circuit_Using_the_Simulate_Menu.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/build_and_test_simple_circuit/Wire_the_Majority_Voting_Circuit.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/navigating_the_user_interface.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/navigating_the_user_interface.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_an_LED.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/build_and_test_simple_circuit/Add_an_LED.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Poke_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/top_bar/Poke_Mode.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Wiring_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/top_bar/Wiring_Mode.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Top_Bar.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/top_bar/Top_Bar.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Select_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/top_bar/Select_Mode.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/build_and_test_simple_circuit/Add_a_Dip_Switch.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/build_and_test_simple_circuit/Add_a_Dip_Switch.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/simulate_sequential_circuit/Building_a_Synchronous_Counter.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/simulate_sequential_circuit/Building_a_Synchronous_Counter.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/user_interface/top_bar/Text_Mode.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/user_interface/top_bar/Text_Mode.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/misc/What_is_Logisim.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/misc/What_is_Logisim.html
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/download_logisim/download_link.dita to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/download_logisim/download_link.html
 
 html5.topic:
 
 html5.map.init:
 
 html5.map.toc:
-     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap
-     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot14472811205365250447/dita-ot/dita-ot-3.6.1/plugins/org.dita.html5/xsl/map2html5-cover.xsl
-     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-temp10782041726798126359/Logisim_3.8.0_Documentation.ditamap to file:/home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/toc.html
+     [xslt] Transforming into /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap
+     [xslt] Loading stylesheet /home/dita-ot/dita-ot/dita-ot2536530189294806975/dita-ot/dita-ot-3.6.1/plugins/org.dita.html5/xsl/map2html5-cover.xsl
+     [xslt] Processing file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-temp7703645898610191625/Logisim_3.8.0_Documentation.ditamap to file:/home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/toc.html
 
 html5.map:
 
 html5.css:
-     [copy] Copying 2 files to /home/dita-ot/dita-ot/dita-ot14472811205365250447/ot-output/html5-bootstrap/css
+     [copy] Copying 2 files to /home/dita-ot/dita-ot/dita-ot2536530189294806975/ot-output/html5-bootstrap/css
 
 html5.copy-css-user:
 
