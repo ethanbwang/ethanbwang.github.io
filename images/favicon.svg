@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(5,0,0,5,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+ <!-- Circular badge with padding -->
+
+ <!-- Mug sides: curly braces -->
+ <!-- Mug handle -->
+ <!-- Coffee surface -->
+ <!-- Main steam curl -->
+ <!-- Right small wisp -->
+ <!-- Left small wisp -->
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" stroke-width="3" stroke="#666666" fill="#FFFFFF" r="90" cy="100" cx="100"></circle>
+  <text id="svg_2" fill="#000000" font-weight="700" font-size="90" font-family="Noto Sans, monospace" y="140" x="30">{</text>
+  <text id="svg_3" fill="#000000" font-weight="700" font-size="90" font-family="Noto Sans, monospace" y="140" x="110">}</text>
+  <path id="svg_4" stroke-width="9" stroke="#000000" fill="none" d="m140,135.5c27.5,0 27.5,0 27.5,-21c0,-22 0,-22 -27.5,-22"></path>
+  <ellipse id="svg_5" fill="#c89b6b" ry="3" rx="30" cy="89" cx="97"></ellipse>
+  <path id="svg_6" stroke-linecap="round" stroke-width="4" stroke="#c89b6b" fill="none" d="m99,65c-4,-7 -2,-12 2,-17c4,-5 6,-10 2,-16"></path>
+  <path id="svg_7" stroke-linecap="round" stroke-width="3" stroke="#c89b6b" fill="none" d="m110,70c-2,-4 -1,-8 2,-11c3,-3 4,-6 2,-9"></path>
+  <path id="svg_8" stroke-linecap="round" stroke-width="3" stroke="#c89b6b" fill="none" d="m85,70c-1,-4 -2,-8 1,-11c3,-3 4,-6 2,-9"></path>
+ </g>
+</svg></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(5,0,0,5,0,0)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+ <!-- Circular badge with padding -->
+
+ <!-- Mug sides: curly braces -->
+ <!-- Mug handle -->
+ <!-- Coffee surface -->
+ <!-- Main steam curl -->
+ <!-- Right small wisp -->
+ <!-- Left small wisp -->
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_1" stroke-width="3" stroke="#666666" fill="#2a2a2a" r="90" cy="100" cx="100"></circle>
+  <text id="svg_2" fill="#FFFFFF" font-weight="700" font-size="90" font-family="Noto Sans, monospace" y="140" x="30">{</text>
+  <text id="svg_3" fill="#FFFFFF" font-weight="700" font-size="90" font-family="Noto Sans, monospace" y="140" x="110">}</text>
+  <path id="svg_4" stroke-width="9" stroke="#FFFFFF" fill="none" d="m140,135.5c27.5,0 27.5,0 27.5,-21c0,-22 0,-22 -27.5,-22"></path>
+  <ellipse id="svg_5" fill="#c89b6b" ry="3" rx="30" cy="89" cx="97"></ellipse>
+  <path id="svg_6" stroke-linecap="round" stroke-width="4" stroke="#c89b6b" fill="none" d="m99,65c-4,-7 -2,-12 2,-17c4,-5 6,-10 2,-16"></path>
+  <path id="svg_7" stroke-linecap="round" stroke-width="3" stroke="#c89b6b" fill="none" d="m110,70c-2,-4 -1,-8 2,-11c3,-3 4,-6 2,-9"></path>
+  <path id="svg_8" stroke-linecap="round" stroke-width="3" stroke="#c89b6b" fill="none" d="m85,70c-1,-4 -2,-8 1,-11c3,-3 4,-6 2,-9"></path>
+ </g>
+</svg></svg></g></g></svg></g></svg>

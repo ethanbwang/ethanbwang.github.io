@@ -7,18 +7,23 @@
     <meta name="description" content="Bio and News - Ethan Wang">
     <title>Homepage - Ethan Wang</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="images/site.webmanifest" />
 </head>
 
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-logo">Ethan Wang</a>
+            <!-- <a href="index.html" class="nav-logo">Ethan Wang</a> -->
             <ul class="nav-menu">
-                <a href="index.html" class="nav-link active">
-                    <li class="nav-item">Home</li>
+                <a href="index.html" class="nav-logo">
+                    <li class="nav-item">Ethan Wang</li>
                 </a>
-                <a href="research.html" class="nav-link">
-                    <li class="nav-item">Research</li>
+                <a href="publications.html" class="nav-link active">
+                    <li class="nav-item">Publications</li>
                 </a>
                 <a href="cv.html" class="nav-link">
                     <li class="nav-item">CV</li>
@@ -39,12 +44,13 @@
                         <div class="social-links">
                             <a href="mailto:ebwang@ucdavis.edu" class="social-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round">
                                     <path
                                         d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
                                     </path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                    <path stroke="white" stroke-width="1" d="M23,7 L13,15.5 Q12,16 11,15.5 L1,7">
+                                    </path>
                                 </svg>
                                 <span class="tooltip">Email</span>
                             </a>
@@ -75,59 +81,47 @@
                             </a>
                         </div>
                     </div>
-
-                    <!-- <div class="bio">
-                        <h2>About Me</h2>
-                        <p>I am a first-year Ph.D. student in Computer Science at the University of California, Davis,
-                            advised
-                            by <a href="https://web.cs.ucdavis.edu/~zubair/" class="social-link" target="_blank">Zubair
-                                Shafiq</a>. My
-                            research focuses on [brief description of your research interests and
-                            what
-                            problems you're trying to solve].</p>
-
-                        <p>Before starting my Ph.D., I completed my Bachelor's degree in Computer Science also at the
-                            University of California, Davis. During my undergraduate studies, I worked in <a
-                                href="https://www.cs.ucdavis.edu/~hchen/" class="social-link" target="_blank">Hao
-                                Chen</a>'s Computer Security Lab primarily with <a href="https://yfhe.net/about/"
-                                class="social-link" target="_blank">Yifeng He</a>.
-                        </p>
-
-                        <p>My current research interests include privacy, AI bot detection, and AI browsers/web
-                            browsing. I am particularly interested in [specific aspect of your research that excites
-                            you].</p>
-                    </div> -->
                 </div>
 
                 <div class="about-image">
                     <img src="images/headshot.jpg" alt="Headshot of Ethan Wang" class="profile-photo">
                 </div>
-
-                <!-- <div class="about-image">
-                    <img src="images/headshot.jpg" alt="Headshot of Ethan Wang" class="profile-photo">
-                </div> -->
             </div>
 
             <div class="bio">
                 <h2>About Me</h2>
-                <p>I am a first-year Ph.D. student in Computer Science at the University of California, Davis,
-                    advised
-                    by <a href="https://web.cs.ucdavis.edu/~zubair/" class="social-link" target="_blank">Zubair
-                        Shafiq</a>. My
-                    research focuses on [brief description of your research interests and
-                    what
-                    problems you're trying to solve].</p>
-
-                <p>Before starting my Ph.D., I completed my Bachelor's degree in Computer Science also at the
-                    University of California, Davis. During my undergraduate studies, I worked in <a
-                        href="https://www.cs.ucdavis.edu/~hchen/" class="social-link" target="_blank">Hao
-                        Chen</a>'s Computer Security Lab primarily with <a href="https://yfhe.net/about/"
-                        class="social-link" target="_blank">Yifeng He</a>.
+                <p>
+                    I am a first-year Ph.D. student studying Computer Science at the University of California, Davis,
+                    advised by <a href="https://web.cs.ucdavis.edu/~zubair/" class="social-link" target="_blank">Zubair
+                        Shafiq</a>. Before starting my Ph.D., I completed my Bachelor's degree in Computer Science also
+                    at UC Davis.
                 </p>
-
-                <p>My current research interests include privacy, AI bot detection, and AI browsers/web
-                    browsing. I am particularly interested in [specific aspect of your research that excites
-                    you].</p>
+                <p>
+                    My research currently focuses broadly on agentic bot detection and investigating how AI browsers
+                    (such as ChatGPT Atlas and Perplexity Comet) maintain user privacy. I am particularly interested in
+                    understanding the behavior of these bots, how they can be detected, and how AI can be used
+                    to browse the web responsibly.
+                </p>
+                <p>
+                    There is growing interest in using AI for agentic automation, shown by emerging technologies such as
+                    MCP, agentic web browsing assistants, and AI browsers. However, many new technologies have
+                    historically dedicated more resources to developing and optimizing new features than securing their
+                    products and ensuring user privacy.
+                </p>
+                <p>
+                    I strongly believe that consumers of these technologies should not have to suffer from
+                    missing/defective security and privacy features. These technologies should also not be abused by
+                    users for malicious purposes. Specifically, I am passionate about investigating how these agentic
+                    technologies work at a lower level, the signals they produce, and behavioral patterns they exhibit
+                    to create systems that protect users and their right to privacy.
+                </p>
+                <p>
+                    Outside of work, some of my favorite activities are spending time with my friends and family,
+                    learning how to do new things, hiking/driving to explore new scenery, playing sports and running,
+                    and experiencing good stories through a variety of media, particularly reading, watching movies, and
+                    playing games. I also enjoy seeing new parts of the world and experiencing different cultures
+                    through traveling to expand my horizons.
+                </p>
             </div>
         </section>
 
@@ -136,12 +130,11 @@
             <ul class="news-list">
                 <li>
                     <span class="news-date">September 2025</span>
-                    <span class="news-content">Started my Ph.D. at the University of California, Davis!</span>
+                    <span class="news-content">Started my Ph.D. at UC Davis!</span>
                 </li>
                 <li>
                     <span class="news-date">June 2025</span>
-                    <span class="news-content">Graduated with a Bachelor of Science in Computer Science from the
-                        University of California, Davis.</span>
+                    <span class="news-content">Graduated with a B.S. in Computer Science from UC Davis.</span>
                 </li>
             </ul>
         </section>

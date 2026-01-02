@@ -39,8 +39,9 @@ body {
 }
 
 .nav-container {
+    width: 100%;
     max-width: 1200px;
-    margin: 0 25rem;
+    margin: 0 auto;
     padding: 0 2rem;
     display: flex;
     /* justify-content: space-between; */
@@ -50,11 +51,12 @@ body {
 }
 
 .nav-logo {
+    display: flex;
+    align-items: center;
     color: white;
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    vertical-align: middle;
     border-bottom: solid transparent;
     transition: color 0.3s ease, border-bottom 0.3s ease;
 }
@@ -68,6 +70,8 @@ body {
     display: flex;
     list-style: none;
     gap: 2.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .nav-link {
@@ -76,7 +80,6 @@ body {
     text-decoration: none;
     font-size: 1.15rem;
     transition: color 0.3s ease, border-bottom 0.3s ease;
-    vertical-align: middle;
 }
 
 
@@ -86,10 +89,17 @@ body {
     border-bottom: solid var(--accent-color);
 }
 
+.nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 /* Container */
 .container {
+    width: 100%;
     max-width: 1200px;
-    margin: 0 20rem;
+    margin: 0 auto;
     padding: 3rem 2rem;
     flex: 1;
 }
@@ -97,8 +107,8 @@ body {
 /* About Section */
 .about-section {
     margin-bottom: 4rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about-content {
@@ -141,8 +151,7 @@ body {
 .social-link {
     color: var(--primary-color);
     /* transition: color 0.3s ease, transform 0.3s ease; */
-    transition: color 0.3s ease;
-    transition: visibility 0.9s ease;
+    transition: color 0.3s ease, visibility 0.9s ease;
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -211,8 +220,8 @@ body {
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 .news-section h2 {
@@ -253,15 +262,15 @@ body {
 /* Research Page */
 .research-overview {
     margin-bottom: 3rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.research-overview h1 {
+/* .research-overview h1 {
     font-size: 2.5rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
-}
+} */
 
 .research-intro {
     font-size: 1.1rem;
@@ -272,8 +281,8 @@ body {
 
 .research-interests {
     margin-bottom: 3rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .research-interests h2 {
@@ -297,16 +306,30 @@ body {
 }
 
 /* Publications Section */
+.publications-section h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
 .publications-section {
     margin-bottom: 3rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .publications-section h2 {
     font-size: 1.8rem;
     color: var(--primary-color);
     margin-bottom: 2rem;
+}
+
+.publications-year h3 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
 }
 
 .publication {
@@ -321,7 +344,7 @@ body {
 
 .paper-title {
     font-size: 1.2rem;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin-bottom: 0.5rem;
 }
 
@@ -363,6 +386,12 @@ body {
 }
 
 /* Projects Section */
+.projects-section {
+    margin-bottom: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .projects-section h2 {
     font-size: 1.8rem;
     color: var(--primary-color);
@@ -395,8 +424,8 @@ body {
 
 /* CV Page */
 .cv-section {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .cv-section h1 {
@@ -462,9 +491,9 @@ body {
 
 /* CV Summary Section */
 .cv-summary {
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 3rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
 }
 
 .cv-summary h2 {
