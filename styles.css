@@ -198,7 +198,7 @@ body {
 .bio p {
     margin-bottom: 1rem;
     color: var(--text-color);
-    text-align: justify;
+    text-align: left;
 }
 
 .about-image {
