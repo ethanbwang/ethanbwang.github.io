@@ -17,44 +17,60 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <!-- <a href="index.html" class="nav-logo">Ethan Wang</a> -->
             <ul class="nav-menu">
                 <a href="index.html" class="nav-logo">
                     <li class="nav-item">Ethan Wang</li>
                 </a>
-                <!-- <a href="index.html" class="nav-link">
-                    <li class="nav-item">Home</li>
-                </a> -->
                 <a href="publications.html" class="nav-link active">
                     <li class="nav-item">Publications</li>
                 </a>
                 <a href="cv.html" class="nav-link">
                     <li class="nav-item">CV</li>
                 </a>
+                <a href="resume.html" class="nav-link">
+                    <li class="nav-item">Resume</li>
+                </a>
             </ul>
         </div>
     </nav>
 
     <main class="container">
-        <!-- <section class="research-overview">
-            <h1>Publications</h1>
-            <p class="research-intro">
-                
-            </p>
-        </section> -->
-
-        <!-- <section class="research-interests">
-            <h2>Research Interests</h2>
-            <ul class="interests-list">
-                <li>Privacy</li>
-                <li>AI Bot Detection</li>
-                <li>AI Browsers/Web Browsing</li>
-            </ul>
-        </section> -->
 
         <section class="publications-section">
             <h1>Publications</h1>
-            <!-- <h2>Publications & Preprints</h2> -->
+
+            <div class="publications-year">
+                <h3>2026</h3>
+                <div class="publication">
+                    <h4 class="paper-title">FP-Agent: Fingerprinting AI Browsing Agents</h4>
+                    <p class="paper-authors">
+                        <strong>Ethan Wang</strong>, Zubair Shafiq, Yash Vekaria
+                    </p>
+                    <p class="paper-venue">
+                        <em>Under submission</em>, 2026
+                    </p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2605.01247" class="paper-link" target="_blank">PDF</a>
+                        <a href="https://arxiv.org/abs/2605.01247" class="paper-link" target="_blank">arXiv</a>
+                        <a href="https://github.com/ethanbwang/fp-agent" class="paper-link" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="publication">
+                    <h4 class="paper-title">Tracking Conversations: Measuring Content and Identity Exposure on AI
+                        Chatbots</h4>
+                    <p class="paper-authors">
+                        Muhammad Jazlan, <strong>Ethan Wang</strong>, Yash Vekaria, Zubair Shafiq
+                    </p>
+                    <p class="paper-venue">
+                        <em>Under submission</em>, 2026
+                    </p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2604.27438" class="paper-link" target="_blank">PDF</a>
+                        <a href="https://arxiv.org/abs/2604.27438" class="paper-link" target="_blank">arXiv</a>
+                    </div>
+                </div>
+            </div>
+
             <div class="publications-year">
                 <h3>2025</h3>
                 <div class="publication">
@@ -63,20 +79,9 @@
                         Yifeng He, <strong>Ethan Wang</strong>, Yuyang Rong, Zifei Cheng, Hao Chen
                     </p>
                     <p class="paper-venue">
-                        <em>IEEE/ACM International Workshop on Responsible AI Engineering (RAIE)</em>, 2025
+                        <em>IEEE/ACM International Workshop on Responsible AI Engineering (RAIE), co-located with the
+                            International Conference on Software Engineering (ICSE)</em>, 2025
                     </p>
-                    <!-- <p class="paper-abstract">
-                        AI agents have been boosted by large language models. AI agents can function as intelligent
-                        assistants and complete tasks on behalf of their users with access to tools and the ability to
-                        execute commands in their environments. Through studying and experiencing the workflow of typical AI
-                        agents, we have raised several concerns regarding their security. These potential vulnerabilities
-                        are not addressed by the frameworks used to build the agents, nor by research aimed at improving the
-                        agents. In this paper, we identify and describe these vulnerabilities in detail from a system
-                        security perspective, emphasizing their causes and severe effects. Furthermore, we introduce defense
-                        mechanisms corresponding to each vulnerability with design and experiments to evaluate their
-                        viability. Altogether, this paper contextualizes the security issues in the current development of
-                        AI agents and delineates methods to make AI agents safer and more reliable.
-                    </p> -->
                     <div class="paper-links">
                         <a href="https://ieeexplore.ieee.org/document/11029384" class="paper-link"
                             target="_blank">PDF</a>
@@ -99,28 +104,6 @@
                     <p class="paper-venue">
                         <em>ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</em>, 2024
                     </p>
-                    <!-- <p class="paper-abstract">
-                    The remarkable capability of large language models (LLMs) in generating high-quality code has drawn
-                    increasing attention in the
-                    software testing community. However, existing code LLMs often
-                    demonstrate unsatisfactory capabilities in generating accurate, complete tests since they were
-                    trained on code snippets collected without differentiating between code for testing and for other
-                    purposes.
-                    In this paper, we present a large-scale dataset, UniTSyn, which can
-                    enhance LLMs for Unit Test Synthesis. Associating tests with the
-                    tested functions is crucial for LLMs to infer the expected behavior
-                    and the logic paths to be verified. By leveraging Language Server
-                    Protocol, UniTSyn achieves the challenging goal of collecting focaltest pairs without per-project
-                    execution setups or per-language
-                    heuristics, which tend to be fragile and difficult to scale. Containing
-                    2.7 million focal-test pairs across five mainstream programming
-                    languages, it can enhance the test generation ability of LLMs. Our
-                    experiments demonstrate that, by building an autoregressive LLM
-                    based on UniTSyn, we can achieve significant benefits in learning
-                    and understanding unit test representations, resulting in improved
-                    generation accuracy and code coverage across all the evaluated
-                    programming languages.
-                </p> -->
                     <div class="paper-links">
                         <a href="https://dl.acm.org/doi/pdf/10.1145/3650212.3680342" class="paper-link"
                             target="_blank">PDF</a>
@@ -129,32 +112,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="projects-section">
-            <h2>Research Projects</h2>
-
-            <div class="project">
-                <h3>[Project Name]</h3>
-                <p class="project-description">
-                    [Description of your current or ongoing research project. Explain what you're working on, what
-                    methods you're using, and what you hope to discover or achieve.]
-                </p>
-                <p class="project-collaborators">
-                    <strong>Collaborators:</strong> [Collaborator 1], [Collaborator 2]
-                </p>
-            </div>
-
-            <div class="project">
-                <h3>[Project Name]</h3>
-                <p class="project-description">
-                    [Description of another research project. This could be something you're planning to start or a side
-                    project you're exploring.]
-                </p>
-                <p class="project-collaborators">
-                    <strong>Collaborators:</strong> [Collaborator 1]
-                </p>
-            </div>
-        </section> -->
     </main>
 
     <footer class="footer">
