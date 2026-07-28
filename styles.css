@@ -28,6 +28,18 @@ body {
     min-height: 100vh;
 }
 
+.paragraph-link {
+    color: var(--text-color);
+    padding-bottom: 1.5pt;
+    border-bottom: solid var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.paragraph-link:hover {
+    color: var(--accent-color);
+}
+
 /* Navigation Bar */
 .navbar {
     background-color: var(--primary-color);
